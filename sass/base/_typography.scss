@@ -52,7 +52,7 @@ body {
     $color-primary-light,
     $color-primary-dark
   );
-  // background-clip: text;
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
@@ -61,5 +61,19 @@ body {
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}
+
+.heading-tertiary {
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
   }
 }
