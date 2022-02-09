@@ -1,3 +1,3 @@
 # HTML
 
-1. Rebrush html and css skills
+1.html and css skills
